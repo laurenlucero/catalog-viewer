@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Features
 
-- Displays a list of products from a mock book catalog along with their jacket cover images, names, authors, and genres.
+- Displays a list of products from a mock book catalog along with their jacket cover images, names, authors, and genres. Users can search products based on the name and author.
 
 ## Getting Started
 
