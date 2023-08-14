@@ -4,9 +4,9 @@ function ProductCard({ product }) {
     product.images && product.images.find(image => image.type === 1);
 
   return (
-    <div className="product-card">
+    <div className="product-card" data-testid="product-card">
       {jacketCoverImage && jacketCoverImage.uri && (
-        <img src={jacketCoverImage.uri} alt="Jacket Cover" />
+        <img src={jacketCoverImage.uri} alt="Jacket Cover" data-testid="jacket-cover-image"/>
       )}
       <h2>{product.name}</h2>
       <p>Author: {product.author}</p>
